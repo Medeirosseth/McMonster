@@ -1,0 +1,40 @@
+.intro {
+  background-color: white;
+
+  .imgcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    // border: solid 30px black;
+
+    .twoimgcontainer {
+      display: flex;
+      justify-content: center;
+      border: solid 20px black;
+      margin: 25px 25px 0 25px;
+      z-index: 0;
+
+      .threeimgcontainer {
+        display: flex;
+        justify-content: center;
+        border: solid 20px black;
+        margin: 35px 35px 0 35px;
+        z-index: 0;
+
+        .fourimgcontainer {
+          display: flex;
+          justify-content: center;
+          border: solid 20px black;
+          margin: 45px 45px 0 45px;
+          z-index: 0;
+
+          img {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

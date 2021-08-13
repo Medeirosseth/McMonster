@@ -11,7 +11,12 @@ export default function Contact() {
 
   return (
     <div className="contact" id="contact">
-      <div className="left"></div>
+      <div className="left">
+        <img
+          src="assets/SpatialAwareness.jpg"
+          alt="Two ghost walking along the river with a deer"
+        />
+      </div>
       <div className="right">
         <h2>Contact</h2>
         <form onSubmit={handleSubmit}>

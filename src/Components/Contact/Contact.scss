@@ -4,6 +4,14 @@
 
   .left {
     flex: 1;
+
+    img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80vh;
+      overflow: hidden;
+    }
   }
   .right {
     flex: 1;

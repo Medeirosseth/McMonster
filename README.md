@@ -30,8 +30,8 @@ _This is a React portfolio website showcasing the works of McMonster._
 ## Known Bugs :bug:
 
 - :bug:_Menu is expanded upon first load_
-- :construction: _Working making contact form functional_
-- :construction: _Would like to use Instagram API in order to display up-to-date photos_
+- :construction: _Working on making contact form functional_
+- :construction: _Working on Instagram API in order to display up-to-date photos_
 
 ## License
 

@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             MCMONSTER
           </a>
         </div>
-        <h1 className="topbarname">MCMONSTER</h1>
+        <h1 className="topbarname"></h1>
         <div className="right">
           <div onClick={() => setMenuOpen(!menuOpen)} className="hamburger">
             <span className="lineone">1</span>

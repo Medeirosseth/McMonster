@@ -18,7 +18,7 @@
 ## Description:memo:
 
 _This is a React portfolio website showcasing the works of McMonster._
-![Intro](/assets/Intro.png)
+![Intro](/Intro.png)
 ![IntroMenu](/IntroWMenu.png)
 ![Intro](/Contact.png)
 

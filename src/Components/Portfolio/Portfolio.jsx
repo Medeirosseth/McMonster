@@ -7,16 +7,26 @@ export default function Portfolio() {
       <div class="gallery">
         <div class="gallery__column">
           <figure className="gallery__thumb">
-            <img src="assets/one.jpg" alt="Skeleton" class="gallery__image" />
-            <figcaption className="gallery__caption">Skeleton Guy</figcaption>
+            <img
+              src="assets/Portfolio/DevilOnYourBack.png"
+              alt="Skeleton"
+              class="gallery__image"
+            />
+            <figcaption className="gallery__caption">
+              Devil On Your Back
+            </figcaption>
           </figure>
           <figure className="gallery__thumb">
-            <img src="assets/Two.jpg" alt="another" class="gallery__image" />
-            <figcaption class="gallery__caption">Name of Piece</figcaption>
+            <img
+              src="assets/Portfolio/Don'tTellMe.jpg"
+              alt="another"
+              class="gallery__image"
+            />
+            <figcaption class="gallery__caption">Dont Tell Me</figcaption>
           </figure>
           <figure class="gallery__thumb">
             <img
-              src="assets/Three.png"
+              src="assets/Portfolio/Eight.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -27,7 +37,7 @@ export default function Portfolio() {
         <div class="gallery__column">
           <figure class="gallery__thumb">
             <img
-              src="assets/Four.jpg"
+              src="assets/Portfolio/Eleven.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -35,7 +45,7 @@ export default function Portfolio() {
           </figure>
           <figure class="gallery__thumb">
             <img
-              src="assets/Five.jpg"
+              src="assets/Portfolio/Five.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -43,7 +53,7 @@ export default function Portfolio() {
           </figure>
           <figure class="gallery__thumb">
             <img
-              src="assets/Six.jpg"
+              src="assets/Portfolio/Four.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -53,7 +63,7 @@ export default function Portfolio() {
         <div class="gallery__column">
           <figure class="gallery__thumb">
             <img
-              src="assets/Seven.jpg"
+              src="assets/Portfolio/Labyrinth.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -61,7 +71,7 @@ export default function Portfolio() {
           </figure>
           <figure class="gallery__thumb">
             <img
-              src="assets/Eight.jpg"
+              src="assets/Portfolio/LadyJustice.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -69,7 +79,7 @@ export default function Portfolio() {
           </figure>
           <figure class="gallery__thumb">
             <img
-              src="assets/Nine.jpg"
+              src="assets/Portfolio/LookingTheOtherWay.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -80,7 +90,7 @@ export default function Portfolio() {
         <div class="gallery__column">
           <figure class="gallery__thumb">
             <img
-              src="assets/Ten.jpg"
+              src="assets/Portfolio/SpatialAwareness.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -88,7 +98,7 @@ export default function Portfolio() {
           </figure>
           <figure class="gallery__thumb">
             <img
-              src="assets/Eleven.jpg"
+              src="assets/Portfolio/SwordOfFire.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />
@@ -96,7 +106,7 @@ export default function Portfolio() {
           </figure>
           <figure class="gallery__thumb">
             <img
-              src="assets/Twelve.jpg"
+              src="assets/Portfolio/TakeCare.jpg"
               alt="TITLE GOES HERE"
               class="gallery__image"
             />

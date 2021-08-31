@@ -18,7 +18,6 @@ function App() {
         <Intro />
         <Portfolio />
         <Mural />
-        <Contact />
       </div>
     </div>
   );

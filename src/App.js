@@ -17,7 +17,7 @@ function App() {
         <Intro />
         <Portfolio />
         <Mural />
-      </div>
+      </div> 
     </div>
   );
 }

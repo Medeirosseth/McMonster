@@ -1,10 +1,8 @@
-import Topbar from "./Components/Topbar/Topbar";
-import Menu from "./Components/Menu/Menu";
-import Intro from "./Components/Intro/Intro";
-import Portfolio from "./Components/Portfolio/Portfolio";
+
 import "./App.scss";
 import { useState } from "react";
-import Mural from "./Components/Mural/Mural";
+
+import { Topbar, Menu, Intro, Portfolio, Mural, Products} from './Components'
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,6 +15,7 @@ function App() {
         <Intro />
         <Portfolio />
         <Mural />
+        <Products />
       </div> 
     </div>
   );

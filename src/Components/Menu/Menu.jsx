@@ -4,17 +4,11 @@ import "./menu.scss";
 export default function Menu({ menuOpen, setMenuOpen }) {
   return (
     <div className={"menu " + (menuOpen && "active")}>
-      <ul>
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#intro">Home</a>
-        </li>
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#portfolio">Photos</a>
-        </li>
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#murals">Murals</a>
-        </li>
-      </ul>
+      <div className="navIcons"> 
+          <a className="navLink" href="#intro" onClick={() => setMenuOpen(false)}>Home</a>
+          <a className="navLink" href="#portfolio" onClick={() => setMenuOpen(false)} >Art</a>
+        </div>
+      
     </div>
   );
 }

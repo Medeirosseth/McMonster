@@ -22,18 +22,19 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="right">
           <div className={classes.grow} />
           <div className={classes.button} />
-            <IconButton aria-label="Show cart items" color="grey">
-              <Badge badgeContent={2} color="secondary">
-                <ShoppingCart />
-              </Badge>
-            </IconButton>
           <div onClick={() => setMenuOpen(!menuOpen)} className="hamburger">
-            <span className="lineone">1</span>
-            <span className="linetwo">2</span>
-            <span className="linethree">3</span>
+          <span className="lineone">1</span>
+          <span className="linetwo">2</span>
+          <span className="linethree">3</span>
           </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+          </div>
+          </div>
+          </div>
+          );
+        }
+        
+        // <IconButton aria-label="Show cart items" color="grey">
+        //   <Badge badgeContent={2} color="secondary">
+        //     <ShoppingCart />
+        //   </Badge>
+        // </IconButton>

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { commerce } from './lib/commerce'
+import React, { useState} from 'react'
+// import { commerce } from './lib/commerce'
 import  Topbar  from './Components/Topbar/Topbar'
 import  Menu from './Components/Menu/Menu'
 import  Intro from './Components/Intro/Intro'

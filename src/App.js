@@ -4,24 +4,24 @@ import  Topbar  from './Components/Topbar/Topbar'
 import  Menu from './Components/Menu/Menu'
 import  Intro from './Components/Intro/Intro'
 import  Portfolio  from './Components/Portfolio/Portfolio'
-import  Mural  from './Components/Mural/Mural'
+
 // import  Products from './Components/Products/Products'
 
 import "./App.scss";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [products, setProducts] = useState([]);
+  // const [products, setProducts] = useState([]);
 
-  const fetchProducts = async () => {
-    const data = await commerce.products.list();
+  // const fetchProducts = async () => {
+  //   const data = await commerce.products.list();
 
-    setProducts(data);
-  }
+  //   setProducts(data);
+  // }
 
-  useEffect(() => {
-    fetchProducts();
-  }, [])
+  // useEffect(() => {
+  //   fetchProducts();
+  // }, [])
 
   return (
     <div className="app">

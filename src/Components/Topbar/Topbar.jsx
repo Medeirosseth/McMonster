@@ -1,6 +1,6 @@
 import React from "react";
-import { IconButton, Badge, Typography} from '@material-ui/core'
-import { ShoppingCart } from '@material-ui/icons'
+import { Typography} from '@material-ui/core'
+// import { ShoppingCart } from '@material-ui/icons'
 import "./Topbar.scss";
 
 import useStyles from './styles';

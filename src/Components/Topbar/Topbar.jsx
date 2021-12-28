@@ -14,7 +14,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="left">
           <a href="#intro" className="logo">
             <div className="itemContainer"></div>
-              <Typography varient="h6" className={classes.title} color="inherit">
+              <Typography varient="h6" className={classes.title} id="mcmonster" color="inherit">
                 McMonster
               </Typography>
           </a>

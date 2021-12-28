@@ -25,12 +25,26 @@
         height: 100%;
         display: flex;
         justify-content: center;
-
+   
         @include mobile {
-          height: 50%;
+          height: 0%;
           align-items: center;
         }
       }
     }
+  }
+}
+
+@media (max-width: 500px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    
+    .joshImg {
+      height: 300px;
+    }
+  
+  
+
   }
 }

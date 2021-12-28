@@ -52,6 +52,12 @@
     background-color: black;
     color: white;
 
+    #mcmonster{
+      transition: 2s ease-in-out;
+      color: white;
+      font-weight: 400;
+    }
+
     .hamburger {
       span {
         &:first-child {
